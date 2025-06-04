@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch Donation Soundboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #18181b;
+      color: #fff;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .sound {
+      background: #27272a;
+      border: 1px solid #3f3f46;
+      border-radius: 12px;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+    .sound-title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    button {
+      background-color: #9333ea;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 6px 12px;
+      cursor: pointer;
+      margin-top: 6px;
+    }
+    .donation-text {
+      font-size: 14px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎵 Donation Soundboard 🎵</h1>
+
+  <div class="sound">
+    <div class="sound-title">Airhorn – $1.00 Donation</div>
+    <audio id="airhorn" src="https://example.com/sounds/airhorn.mp3"></audio>
+    <button onclick="document.getElementById('airhorn').play()">▶ Preview</button>
+    <div class="donation-text">Donate with: <code>!airhorn</code></div>
+  </div>
+
+  <div class="sound">
+    <div class="sound-title">Fart – $2.00 Donation</div>
+    <audio id="fart" src="https://example.com/sounds/fart.mp3"></audio>
+    <button onclick="document.getElementById('fart').play()">▶ Preview</button>
+    <div class="donation-text">Donate with: <code>!fart</code></div>
+  </div>
+
+  <div class="sound">
+    <div class="sound-title">Scream – $3.00 Donation</div>
+    <audio id="scream" src="https://example.com/sounds/scream.mp3"></audio>
+    <button onclick="document.getElementById('scream').play()">▶ Preview</button>
+    <div class="donation-text">Donate with: <code>!scream</code></div>
+  </div>
+</body>
+</html>
